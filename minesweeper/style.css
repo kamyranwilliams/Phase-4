@@ -1,0 +1,90 @@
+body{
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	background-color: #7464AD;
+}
+
+.left-column{
+	display: block;
+	height: 100%;
+	width: calc(100%/3);
+}
+	
+
+.big-column{
+	display: flex;
+	height: 100%;
+	margin-bottom:0;
+	width: calc(100%/3*2);
+	background-color:#C71585;
+}
+
+.box{
+	display: block;
+	height: 50%;
+	width: 100%;
+}
+
+.right-columns{
+	display: flex ;
+	height: 100%;
+	width: 25%;
+	
+}
+
+.s-box {
+	display: block;
+	height: 50%;
+	width: 50%;
+	background-color:#B22222;
+}
+
+.shrink {
+	max-height: 75%;
+	max-width: 75%;
+}
+
+.pink{
+	background-color:#C71585;
+}
+
+.green{
+background-color: #4CAF50;
+}
+
+.blue{
+	background-color:008B;
+}
+
+.light-blue{
+	background-color:#add8e6 ;
+}
+
+.lime {	background-color:#C71585;
+}
+
+.red {	background-color:#B22222;
+}
+
+
+
+
+
+
+.restrict-img-size {
+	max-height: 100%;
+	max-width:100%;
+}
+	
+button{
+	height: 50%;
+	width:50%;
+	font-family:"Arial", Helvetica, sans-serif;
+}
+
+	
+/*https://css-tricks.com/
+	http://overapi.com/css
+	https://css-tricks.com/almanac/properties/d/display/ */
