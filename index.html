@@ -4,48 +4,75 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>*Minesweeper Room*</title>
-		<!--<link rel="icon" href="room_3_icon.imagend" type="image/gif" sizes="16x16">-->
+		<!--link rel="icon" href="room_3_icon.imagend" type="image/gif" sizes="16x16"-->
 		<link rel="stylesheet" href="style.css"  />
 	</head>
 	
 	<body>
 		
-		<div class="green">
+		<div class=" left-column green">
+			<!-- side top box -->
 			<div class="blue box">
-				<center><button>HINT</button><center></div>
-			<br>
-			<div class="blue box">
-			<img src="images/heart.png">
+				<button>HINT</button>
+			</div>
+			<!-- side bottom box -->
+			<div class="light-blue box">
+				<img src="images/heart.png" class="shrink">
 			</div>
 		</div>
+   
+       
+		<div class="big-column black">
+			
+			<div class="skinny-col red ">
+                <div class="s-box white">
+				<img src="images/cherry_slot.PNG" class="restrict-img-size" <!--id="slot1" onclick="nextImage(this)"/-->
+			</div>
+				<div class="s-box black"><img src="images/lemon_slot.PNG" class="restrict-img-size" <!--id="slot2" onclick="nextImage2(this)"/-->
+			</div>
+				<div class="s-box white"><img src="images/crown.PNG" class="restrict-img-size" <!--id="slot2" onclick="nextImage2(this)"/-->
+			</div>
+				<div class="s-box grey"><img src="images/seven_slot.PNG" class="restrict-img-size"</div>
+			</div>
+						
+			<!--div class="skinny-col blue">
+				<div class="s-box cyan"><img src="images/crown.PNG" class="restrict-img-size"</div>
+				<div class="s-box white"><img src="images/orange_slot.PNG" class="restrict-img-size"</div>
+				<div class="s-box cyan"><img src="images/bar_slot.PNG" class="restrict-img-size"</div>
+				<div class="s-box white">card</div>
+			</div-->
+			
+			<div class=" skinny-col pink">
+                <div class="s-box white">card</div>
+			    <div class="s-box cyan">card</div>
+				<div class="s-box white">card</div>
+				<div class="s-box cyan">card</div>
+			 </div>
+			
+			<div class=" skinny-col orange">
+                <div class="s-box cyan">card</div>
+				<div class="s-box white">card</div>
+				<div class="s-box cyan">card</div>
+				<div class="s-box white">card</div>
+			 </div>
+			
+            <!--<div id="popup1" class="overlay"></div>
+                <div class="popup">
+                    <h2>*:･ﾟ✧ Congrats *:･ﾟ✧ </h2>
+                    <a class="close" href="#">x</a>
+                    <div class="content-1>"
+                                        Congrats on winning 
+                         </div>
+                    <button id="play-again" onclick="playAgain()">Play again</button>
+            </div-->
+                    
+        </div>
 		
-		<div class="pink">
-			<div class="lime column">
-				<div class="red box"></div>
-				<div class="red box"></div>
-				<div class="red box"></div>
-			</div>
-				
-			<div class="lime column">
-				<div class="red box"></div>
-				<div class="red box"></div>
-				<div class="red box"></div>
-			</div>
-			
-			<div class="lime column">
-				<div class="red box"></div>
-				<div class="red box"></div>
-				<div class="red box"></div>
-			</div>
-			
-			<div class="lime column">
-				<div class="red box"></div>
-				<div class="red box"></div>
-				<div class="red box"></div>
-			</div>
-			
-			
-		</div>
-		
+        
+		<script src="script.js"></script>
 	</body>			
-</html>			
+</html>	
+
+
+
+<!-- all you got to do is edit the CSS https://sandraisrael.github.io/Memory-Game-fend/,put the icons in or use pictures and maybe do more editing on your layout simplistic approach -->
